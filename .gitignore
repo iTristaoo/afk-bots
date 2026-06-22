@@ -1,0 +1,12 @@
+node_modules/
+
+# listas de proxy / arquivos de trabalho (não vão pro repo)
+top.txt
+proxies-raw.txt
+proxies-test.txt
+proxies_new.txt
+pt.txt
+result.txt
+cand.txt
+assigned.txt
+mcreach.txt

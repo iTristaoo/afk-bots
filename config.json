@@ -1,0 +1,66 @@
+{
+  "host": "mc.seuservidor.net",
+  "port": 25565,
+  "version": "1.21.4",
+  "reconnectDelayMs": 500,
+  "ghostDelayMs": 3000,
+  "spawnDelayMs": 800,
+  "antiAfk": true,
+  "retryBanido": true,
+  "maxReconnectMs": 15000,
+  "throttleDelayMs": 10000,
+  "panel": {
+    "color": true,
+    "inplace": true,
+    "logLines": 14
+  },
+  "nicks": [
+    "SeuNick1",
+    "SeuNick2",
+    "SeuNick3"
+  ],
+  "proxyPool": {
+    "enabled": true,
+    "file": "top.txt",
+    "testTimeoutMs": 4000,
+    "concurrency": 25,
+    "checkTarget": "mc.seuservidor.net:25565"
+  },
+  "proxy": {
+    "enabled": false,
+    "type": 5,
+    "host": "127.0.0.1",
+    "port": 1080,
+    "username": "",
+    "password": ""
+  },
+  "proxyPerNick": {
+    "_comentario": "um proxy por nick. formato host:porta ou host:porta:user:senha. vazio = usa proxy global"
+  },
+  "cheats": {
+    "enabled": true,
+    "fly": true,
+    "flySpeed": 0.9,
+    "speed": true,
+    "walk": true,
+    "killaura": true,
+    "reach": true,
+    "triggerbot": true,
+    "triggerFov": 180,
+    "triggerReach": 6.0,
+    "triggerPlayersOnly": false,
+    "triggerTrack": true,
+    "triggerDelayMs": 0,
+    "criticals": true,
+    "velocity": true,
+    "multiaura": true,
+    "nuker": true,
+    "nofall": true,
+    "timer": true,
+    "antivoid": true,
+    "voidY": 2,
+    "voidUp": 90,
+    "antihunger": true,
+    "spam": false
+  }
+}

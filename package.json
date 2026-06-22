@@ -1,0 +1,14 @@
+{
+  "name": "afk-bots",
+  "version": "1.0.0",
+  "description": "Bots Minecraft AFK com auto-reconnect",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0",
+    "socks": "^2.8.9"
+  }
+}
